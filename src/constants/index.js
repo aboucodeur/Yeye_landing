@@ -1,17 +1,17 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, shield, star } from "../assets";
 
 export const navLinks = [
   {
     id: "home",
-    title: "Home",
+    title: "Acceuil",
   },
   {
     id: "features",
-    title: "Features",
+    title: "Mission",
   },
   {
     id: "product",
-    title: "Product",
+    title: "Produits",
   },
   {
     id: "clients",
@@ -23,68 +23,59 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
-    content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+    title: "Technologie de pointe",
+    content: "Nous créont des applications et analysons des donnees pour vous aider dans vos activites ( agriculture , immobilier , sante , education, economie , ... )",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
-    content:
-      "We take proactive steps make sure your information and transactions are secure.",
+    title: "100% Securiser",
+    content: "La securiter informatique etant une problematique nous sommes avec vous.",
   },
   {
     id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
-    content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+    icon: star,
+    title: "Expert",
+    content: "Nos applications sont a la pointe de la technologie developper par des expert",
   },
 ];
 
 export const feedback = [
   {
     id: "feedback-1",
-    content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
+    content: "L'utilisation de leur applications m'a faciliter la tache du quotidien comme les ventes , achats et inventaires.",
+    name: "Mamadou Kourekama",
+    title: "Commercant",
   },
   {
     id: "feedback-2",
-    content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
+    content: "j'utilisais excel maintenant c'est yeye pour faire la comptabilite de l'entreprise.",
+    name: "Yacouba Ouedraougo",
+    title: "Comptable",
   },
   {
     id: "feedback-3",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
+    content: "Avant j'utilisais un logiciel avec laquelle je travaillais maintenant c'est Yeye que j'utilise.",
+    name: "Amadou",
+    title: "Comercant",
   },
 ];
 
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Utilisateur active",
+    value: "100+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Entreprise confiance",
+    value: "3+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Applications developper",
+    value: "2+",
   },
 ];
 
